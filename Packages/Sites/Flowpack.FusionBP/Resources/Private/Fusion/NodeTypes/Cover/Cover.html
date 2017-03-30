@@ -2,7 +2,9 @@
   <div class="cover__background" style="background-image: url({backgroundImageUri})"></div>
   <div class="cover__top">
     <div class="cover__top-left">
-      <a href="index.html"><img height="45" src="{f:uri.resource(path: 'img/logo.svg', package: 'Flowpack.FusionBP')}" alt="Logo"></a>
+      <a class="cover__top-logo" href="index.html">
+        <img src="{f:uri.resource(path: 'img/logo.svg', package: 'Flowpack.FusionBP')}" alt="Logo">
+      </a>
     </div>
     <div class="cover__top-right section-menu">
       {sectionMenu -> f:format.raw()}

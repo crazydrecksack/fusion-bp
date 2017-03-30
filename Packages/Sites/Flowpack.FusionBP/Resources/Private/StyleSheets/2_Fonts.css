@@ -16,3 +16,11 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'work_sansthin';
+	src: url('../fonts/work-sans/worksans-thin.woff2') format('woff2'),
+	url('../fonts/work-sans/worksans-thin.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}

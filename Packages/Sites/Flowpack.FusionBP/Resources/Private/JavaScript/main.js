@@ -4,15 +4,15 @@ $(document).ready(function(){
   //------------------------------------//
   //Navbar//
   //------------------------------------//
-    	var menu = $('.navbar');
+    	var menu = $('.cover__top');
     	$(window).bind('scroll', function(e){
     		if($(window).scrollTop() > 140){
-    			if(!menu.hasClass('open')){
-    				menu.addClass('open');
+    			if(!menu.hasClass('cover__top--isOpen')){
+    				menu.addClass('cover__top--isOpen');
     			}
     		}else{
-    			if(menu.hasClass('open')){
-    				menu.removeClass('open');
+    			if(menu.hasClass('cover__top--isOpen')){
+    				menu.removeClass('cover__top--isOpen');
     			}
     		}
     	});

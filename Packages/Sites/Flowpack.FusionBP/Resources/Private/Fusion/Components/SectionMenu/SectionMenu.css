@@ -1,9 +1,5 @@
-.section-menu {
-    line-height: 54px;
-}
-
 .section-menu__item{
     color: #26224C;
-    font-size: 1.6rem;
+    font-size: inherit;
     text-decoration: none;
 }
