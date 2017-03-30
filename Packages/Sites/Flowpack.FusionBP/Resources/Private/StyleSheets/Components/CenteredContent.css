@@ -1,0 +1,13 @@
+.centered-content {
+	display: flex;
+	flex-basis: 100%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.centered-content__inner {
+	max-width: 960px;
+	padding: 16px;
+}
+

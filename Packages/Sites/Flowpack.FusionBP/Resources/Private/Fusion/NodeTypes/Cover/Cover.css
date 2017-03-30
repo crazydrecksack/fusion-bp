@@ -1,0 +1,17 @@
+.cover {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.cover__top {
+	padding: 18px;
+}
+
+.cover__top-left {
+	float: left;
+}
+
+.cover__top-right{
+	float: right;
+}

@@ -17,7 +17,7 @@ var inputJs = [
 ];
 var inputCss = [
 	'./Resources/Private/StyleSheets/**/*.css',
-	'./Resources/Private/Fusion/**/*.css'
+	'./Resources/Private/Fusion/**/*.css',
 ];
 
 var allTasks = ['js', 'css', 'assets'];
