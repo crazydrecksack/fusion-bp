@@ -3,7 +3,7 @@ prototype(Flowpack.FusionBP:Components.SectionMenu) < prototype(Neos.Fusion:Coll
     itemName = 'section'
     itemRenderer = Neos.Fusion:Tag {
         tagName = 'a'
-        attributes.class = 'scroll'
+        attributes.class = 'section-menu__item'
         attributes.href = ${'#' + section.name}
         content = ${section.properties.navTitle + '&nbsp;&nbsp;'}
     }
